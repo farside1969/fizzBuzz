@@ -18,15 +18,15 @@ public class Main {
         for (int i = 1; i <= num; i++) {
 
 // fizzbuzz if divisible by both div1 and div2 integers (use modulus - remainder is 0)
-            if (((i % div1) == 0) & ((i % div2) == 0))
+            if ((i % div1 == 0) & (i % div2 == 0))
                 System.out.println("fizzbuzz");
 
 // fizz if divisible by div1 integer "fizz" (use modulus - remainder is 0)
-            else if ((i % div1) == 0)
+            else if (i % div1 == 0)
                 System.out.println("fizz");
 
 // buzz if divisible by div2 integer "buzz" (use modulus - remainder is 0)
-            else if ((i % div2) == 0)
+            else if (i % div2 == 0)
                 System.out.println("buzz");
 
 // integer if not a multiple of either div1 or div2
