@@ -14,10 +14,10 @@ public class Main {
         //second divisible integer
         int div2 = 5;
 
-// loop forward (positive) starting at integer 1
+// loop to iterate forward (positive) starting at integer 1
         for (int i = 1; i <= num; i++) {
 
-// fizzbuzz if divisible by both div1 and div2 integers (use  - remainder is 0)
+// fizzbuzz if divisible by both div1 and div2 integers (use modulus - remainder is 0)
             if (((i % div1) == 0) & ((i % div2) == 0))
                 System.out.println("fizzbuzz");
 
